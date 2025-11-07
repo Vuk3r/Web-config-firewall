@@ -1,0 +1,291 @@
+/* Importing Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+/* Reset and Basic Setup */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+  height: 120vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+ 
+  background-color: #2d3e50;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Profile Section */
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+/* Menu Styling */
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu li {
+  margin: 12px 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #3b4a5b;
+}
+
+/* Buttons Styling */
+/* Buttons Styling */
+.edit-btn, .logout-btn {
+  width: 100%;
+  padding: 15px; /* Tăng padding để nút lớn hơn */
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em; /* Tăng kích thước chữ */
+  font-weight: 500;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-top: -50px;
+}
+
+
+/* Main Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Sections Styling */
+.personal-info, .family-info, .address-info, .contact-info {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.info-grid, .family-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  font-size: 0.95em;
+}
+
+.family-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.parent-info h4 {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Make titles bold */
+.info-grid div strong,
+.family-grid div strong {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  color: #888;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;/* Toàn bộ thanh top right */
+  .unique-top-right-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f6f9; /* Màu nền của thanh bar */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+    top: 0;
+    right: 0;
+    width: calc(100% - 250px); /* Giả định sidebar bên trái chiếm 250px */
+    max-width: 100%;
+    height: 60px;
+    z-index: 10;
+  }
+  
+  /* Biểu tượng menu bên trái */
+ 
+  /* Tiêu đề học kỳ ở giữa */
+  .unique-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  /* Thông tin người dùng bên phải */
+  .unique-user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .unique-user-info span {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .unique-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional spacing between elements */
+.info-grid div, .family-grid div {
+  padding: 5px 0;
+}
+/* Toàn bộ thanh top right */
+.unique-top-right-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f4f6f9; /* Màu nền của thanh bar */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position:absolute; /* Chuyển sang fixed để cố định thanh bar */
+  top: 0;
+  right: 0;
+  width: calc(100% - 250px); /* Giả định sidebar bên trái chiếm 250px */
+  max-width: 100%;
+  height: 60px;
+  z-index: 10;
+}
+
+/* Biểu tượng menu bên trái */
+ 
+ 
+
+/* Tiêu đề học kỳ ở giữa */
+.unique-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Thông tin người dùng bên phải */
+.unique-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.unique-user-info span {
+  font-size: 0.9em;
+  color: #333;
+}
+
+.unique-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.unique-bar {
+  text-decoration: none; /* Bỏ gạch chân */
+  color: black; /* Màu mặc định đen */
+  cursor: pointer;
+  font-size: 30px; /* Tăng kích thước biểu tượng */
+  transition: color 0.2s ease; /* Hiệu ứng chuyển màu */
+}
+
+.unique-bar:hover {
+  color: rgb(3, 246, 76); /* Màu xanh khi hover */
+}
+
+/* Tạo khoảng trống cho nội dung chính bên dưới thanh bar */
+.content {
+  margin-top: 60px; /* Đảm bảo nội dung không bị che bởi thanh top bar */
+  padding: 20px;
+}

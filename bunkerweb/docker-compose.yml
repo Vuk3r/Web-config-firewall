@@ -1,0 +1,76 @@
+version: "3.8"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: apache_server
+    volumes:
+      - ./public:/var/www/html
+    environment:
+      - DB_HOST=db
+    expose:
+      - "80"
+    depends_on:
+      - db
+    networks:
+      - bunkerweb
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_USER: student
+      PMA_PASSWORD: "@Student123"
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - bunkerweb
+
+  db:
+    image: mysql:5.7
+    container_name: mysql_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "@Root123"
+      MYSQL_DATABASE: "students"
+      MYSQL_USER: "student"
+      MYSQL_PASSWORD: "@Student123"
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - bunkerweb
+
+  bunkerweb:
+    image: bunkerity/bunkerweb:latest
+    container_name: bunkerweb
+    restart: always
+    ports:
+      - "80:8080"
+      - "443:8443"
+    environment:
+      - SERVER_NAME=localhost
+      - AUTO_LETS_ENCRYPT=no
+      - USE_WAF=yes
+      - USE_FAIL2BAN=yes
+      - USE_DOSPROTECTOR=yes
+      - ENFORCE_HTTPS=no
+      - CUSTOM_CONFIG=yes
+    volumes:
+      - ./bunkerweb/config:/opt/bunkerweb/config
+      - ./bunkerweb/data:/opt/bunkerweb/data
+    depends_on:
+      - web
+    networks:
+      - bunkerweb
+
+volumes:
+  db_data:
+
+networks:
+  bunkerweb:
+    driver: bridge

@@ -1,0 +1,88 @@
+version: "3.8"
+
+services:
+########## WEB ##########
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: apache_server
+    volumes:
+      - ./public:/var/www/html
+    environment:
+      - DB_HOST=db
+    expose:
+      - "80"              # Cho phép BunkerWeb truy cập nội bộ
+    ports:
+      - "3000:80"         # Cho phép truy cập trực tiếp từ host qua port 3000
+    depends_on:
+      - db
+    networks:
+      - bunkerweb
+
+########## DATABASE ##########
+  db:
+    image: mysql:5.7
+    container_name: mysql_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: "@Root123"
+      MYSQL_DATABASE: "students"
+      MYSQL_USER: "student"
+      MYSQL_PASSWORD: "@Student123"
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - bunkerweb
+
+########## PHPMYADMIN ##########
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_HOST: db
+      PMA_USER: student
+      PMA_PASSWORD: "@Student123"
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+    networks:
+      - bunkerweb
+
+########## BUNKERWEB (UI + Reverse Proxy) ##########
+  bunkerweb:
+    image: bunkerity/bunkerweb-ui:latest
+    container_name: bunkerweb
+    restart: always
+    ports:
+      - "80:8080"     # Website qua BunkerWeb
+      - "1337:7000"   # Dashboard UI
+      - "443:8443"
+    environment:
+    
+      - USE_UI=yes #bật dashboard UI
+      - ADMIN_USERNAME=admin      # Tài khoản UI
+      - ADMIN_PASSWORD=admin
+
+      - SERVER_NAME=localhost
+      - TARGETS=web
+      - AUTO_LETS_ENCRYPT=no
+      - ENFORCE_HTTPS=no
+      - USE_WAF=no
+      - USE_FAIL2BAN=no
+      - USE_DOSPROTECTOR=no
+      - LOG_LEVEL=info
+    depends_on:
+      - web
+    networks:
+      - bunkerweb
+
+########## STORAGE ##########
+volumes:
+  db_data:
+
+########## NETWORK ##########
+networks:
+  bunkerweb:
+    driver: bridge

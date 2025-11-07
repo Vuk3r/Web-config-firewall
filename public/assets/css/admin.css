@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Grid Layout for Sections */
+.section {
+  display: grid;
+  gap: 15px;
+}
+
+/* Two-column layout for larger screens */
+@media (min-width: 768px) {
+  .section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Section Titles */
+.section h2 {
+  font-size: 1.5rem;
+  grid-column: span 2; /* Span both columns */
+  color: #555;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Input Group Styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Delete Button Styling */
+.delete-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.delete-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+.delete-form {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f8d7da;
+}
+
+.delete-form .input-group {
+  margin-bottom: 10px;
+}
+
+.delete-form label {
+  color: #721c24;
+}
+
+.delete-form input {
+  border-color: #f5c6cb;
+}

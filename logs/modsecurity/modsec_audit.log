@@ -1,0 +1,1546 @@
+--74304846-A--
+[07/Nov/2025:14:02:30.182553 +0000] aQ379uVdVyw722BPKVGJ1QAAAAA 172.19.0.1 36374 172.19.0.4 80
+--74304846-B--
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--74304846-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 813
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--74304846-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524150168958 20920 (- - -)
+Stopwatch2: 1762524150168958 20920; combined=56, p1=16, p2=7, p3=1, p4=0, p5=32, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--74304846-Z--
+
+--74304846-A--
+[07/Nov/2025:14:02:31.572248 +0000] aQ3799IHBiFrK3-sZKWcmgAAAAE 127.0.0.1 57192 127.0.0.1 80
+--74304846-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--74304846-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=de7a763692b684274bbf7f5e646dcdfa; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--74304846-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524151566730 9427 (- - -)
+Stopwatch2: 1762524151566730 9427; combined=31, p1=22, p2=3, p3=1, p4=0, p5=5, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--74304846-Z--
+
+--74304846-A--
+[07/Nov/2025:14:02:39.626959 +0000] aQ37_4agceyyeFPY9SeXjgAAAAI 127.0.0.1 59364 127.0.0.1 80
+--74304846-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--74304846-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=715782a0418da7a7d777c5e9ecdf9c97; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--74304846-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524159623174 6833 (- - -)
+Stopwatch2: 1762524159623174 6833; combined=37, p1=33, p2=2, p3=0, p4=0, p5=1, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--74304846-Z--
+
+--74304846-A--
+[07/Nov/2025:14:02:45.525453 +0000] aQ38BWIdN1HA-aTzCKkPsQAAAAM 172.19.0.1 36380 172.19.0.4 80
+--74304846-B--
+POST / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 27
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:3000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--74304846-C--
+student_id=123&password=123
+--74304846-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 231
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--74304846-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524165473425 57289 (- - -)
+Stopwatch2: 1762524165473425 57289; combined=48, p1=12, p2=32, p3=1, p4=0, p5=3, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--74304846-Z--
+
+--915cf908-A--
+[07/Nov/2025:14:02:45.636887 +0000] aQ38BWIdN1HA-aTzCKkPsgAAAAM 172.19.0.1 36380 172.19.0.4 80
+--915cf908-B--
+GET /favicon.ico HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--915cf908-F--
+HTTP/1.1 404 Not Found
+Content-Length: 273
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--915cf908-H--
+Stopwatch: 1762524165629565 12760 (- - -)
+Stopwatch2: 1762524165629565 12760; combined=23, p1=12, p2=10, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--915cf908-Z--
+
+--74304846-A--
+[07/Nov/2025:14:02:47.688581 +0000] aQ38B864lvSVbDHPGC8oZQAAAAQ 127.0.0.1 43018 127.0.0.1 80
+--74304846-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--74304846-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=c503350d3107c33bff3052f6cd3329e9; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--74304846-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524167685828 5464 (- - -)
+Stopwatch2: 1762524167685828 5464; combined=11, p1=8, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--74304846-Z--
+
+--74304846-A--
+[07/Nov/2025:14:02:55.745023 +0000] aQ38D6mUJqDWzc75Ya2EKAAAAAU 127.0.0.1 43022 127.0.0.1 80
+--74304846-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--74304846-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=ab95882a9a54ca7526040320718d684f; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--74304846-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524175741870 5432 (- - -)
+Stopwatch2: 1762524175741870 5432; combined=15, p1=9, p2=3, p3=1, p4=0, p5=1, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--74304846-Z--
+
+--915cf908-A--
+[07/Nov/2025:14:03:03.795305 +0000] aQ38F9IHBiFrK3-sZKWcmwAAAAE 127.0.0.1 36816 127.0.0.1 80
+--915cf908-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--915cf908-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=7803b26827e0dc73022c7058dac8fc9d; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--915cf908-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524183792361 5530 (- - -)
+Stopwatch2: 1762524183792361 5530; combined=9, p1=6, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--915cf908-Z--
+
+--915cf908-A--
+[07/Nov/2025:14:03:11.864373 +0000] aQ38H-VdVyw722BPKVGJ1gAAAAA 127.0.0.1 54502 127.0.0.1 80
+--915cf908-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--915cf908-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=04a96ae2075f1cb5bd0b4118764e09a8; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--915cf908-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524191862391 5282 (- - -)
+Stopwatch2: 1762524191862391 5282; combined=10, p1=7, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--915cf908-Z--
+
+--915cf908-A--
+[07/Nov/2025:14:03:19.913977 +0000] aQ38J864lvSVbDHPGC8oZgAAAAQ 127.0.0.1 53866 127.0.0.1 80
+--915cf908-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--915cf908-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=2643d3bdd505909c7630e5c909a931d6; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--915cf908-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524199911907 4597 (- - -)
+Stopwatch2: 1762524199911907 4597; combined=10, p1=7, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--915cf908-Z--
+
+--dbda1706-A--
+[07/Nov/2025:14:03:31.102829 +0000] aQ38M2biYZFEyl5kaDopdgAAAAA 172.19.0.1 40798 172.19.0.4 80
+--dbda1706-B--
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--dbda1706-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 813
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--dbda1706-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524211096354 10811 (- - -)
+Stopwatch2: 1762524211096354 10811; combined=40, p1=11, p2=26, p3=1, p4=0, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--dbda1706-Z--
+
+--dbda1706-A--
+[07/Nov/2025:14:03:31.308205 +0000] aQ38M69jMY5CmSxvXmk6fwAAAAE 127.0.0.1 55298 127.0.0.1 80
+--dbda1706-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--dbda1706-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=836c499c48729765322adb9a1a29589b; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--dbda1706-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524211303520 11962 (- - -)
+Stopwatch2: 1762524211303520 11962; combined=18, p1=10, p2=3, p3=2, p4=0, p5=2, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--dbda1706-Z--
+
+--c8ddc56c-A--
+[07/Nov/2025:14:03:33.828565 +0000] aQ38NWbiYZFEyl5kaDopdwAAAAA 172.19.0.1 40798 172.19.0.4 80
+--c8ddc56c-B--
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--c8ddc56c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 813
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--c8ddc56c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524213824490 14440 (- - -)
+Stopwatch2: 1762524213824490 14440; combined=19, p1=11, p2=4, p3=1, p4=0, p5=3, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--c8ddc56c-Z--
+
+--6bfa1775-A--
+[07/Nov/2025:14:03:34.599659 +0000] aQ38NmbiYZFEyl5kaDopeAAAAAA 172.19.0.1 40798 172.19.0.4 80
+--6bfa1775-B--
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--6bfa1775-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 813
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--6bfa1775-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524214596442 9990 (- - -)
+Stopwatch2: 1762524214596442 9990; combined=18, p1=11, p2=4, p3=1, p4=1, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--6bfa1775-Z--
+
+--dbda1706-A--
+[07/Nov/2025:14:03:39.366392 +0000] aQ38O0Lm3jlPaTeGogz1QQAAAAI 127.0.0.1 48832 127.0.0.1 80
+--dbda1706-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--dbda1706-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=d88eb20640a6a6c124196ea6f570fd0d; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--dbda1706-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524219363448 5985 (- - -)
+Stopwatch2: 1762524219363448 5985; combined=14, p1=8, p2=3, p3=1, p4=0, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--dbda1706-Z--
+
+--dbda1706-A--
+[07/Nov/2025:14:03:44.162002 +0000] aQ38QL7FjsvkhLAxnhjhjgAAAAM 172.19.0.1 40800 172.19.0.4 80
+--dbda1706-B--
+POST / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 27
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:3000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--dbda1706-C--
+student_id=zxc&password=zxc
+--dbda1706-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 231
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--dbda1706-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524224151543 16430 (- - -)
+Stopwatch2: 1762524224151543 16430; combined=45, p1=9, p2=34, p3=1, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--dbda1706-Z--
+
+--dbda1706-A--
+[07/Nov/2025:14:03:47.427234 +0000] aQ38QwMg_mLF08Nj61EXPQAAAAQ 127.0.0.1 54826 127.0.0.1 80
+--dbda1706-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--dbda1706-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=d2cf857ac400c60175a742e2c217136b; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--dbda1706-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524227424554 6036 (- - -)
+Stopwatch2: 1762524227424554 6036; combined=14, p1=9, p2=3, p3=1, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--dbda1706-Z--
+
+--c8ddc56c-A--
+[07/Nov/2025:14:03:55.481239 +0000] aQ38S69jMY5CmSxvXmk6gAAAAAE 127.0.0.1 54840 127.0.0.1 80
+--c8ddc56c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--c8ddc56c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=aeb98c9e73ae18d3f49449b1d47afaf6; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--c8ddc56c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524235478097 5555 (- - -)
+Stopwatch2: 1762524235478097 5555; combined=11, p1=6, p2=3, p3=1, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--c8ddc56c-Z--
+
+--dbda1706-A--
+[07/Nov/2025:14:04:03.550673 +0000] aQ38U9CXwPUy3KUD4WEOxQAAAAU 127.0.0.1 48132 127.0.0.1 80
+--dbda1706-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--dbda1706-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=8098c10445fa6d1f7046509c9a9a881b; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--dbda1706-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524243546512 6520 (- - -)
+Stopwatch2: 1762524243546512 6520; combined=17, p1=9, p2=2, p3=1, p4=0, p5=4, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--dbda1706-Z--
+
+--c8ddc56c-A--
+[07/Nov/2025:14:04:11.600031 +0000] aQ38W0Lm3jlPaTeGogz1QgAAAAI 127.0.0.1 49238 127.0.0.1 80
+--c8ddc56c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--c8ddc56c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=8442a0f2d2f7c7c730c3fbbc8b999ee2; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--c8ddc56c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524251598465 3988 (- - -)
+Stopwatch2: 1762524251598465 3988; combined=9, p1=6, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--c8ddc56c-Z--
+
+--c8ddc56c-A--
+[07/Nov/2025:14:04:19.654123 +0000] aQ38YwMg_mLF08Nj61EXPgAAAAQ 127.0.0.1 40814 127.0.0.1 80
+--c8ddc56c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--c8ddc56c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=4349543e2ab12f45ee708d792c0af021; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--c8ddc56c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524259652156 4043 (- - -)
+Stopwatch2: 1762524259652156 4043; combined=10, p1=7, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--c8ddc56c-Z--
+
+--c8ddc56c-A--
+[07/Nov/2025:14:04:27.708891 +0000] aQ38a77FjsvkhLAxnhjhjwAAAAM 127.0.0.1 40058 127.0.0.1 80
+--c8ddc56c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--c8ddc56c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=8929652597536d1252ec84d5b5b7a2ed; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--c8ddc56c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524267707179 3899 (- - -)
+Stopwatch2: 1762524267707179 3899; combined=11, p1=7, p2=2, p3=0, p4=0, p5=1, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--c8ddc56c-Z--
+
+--6bfa1775-A--
+[07/Nov/2025:14:04:35.760953 +0000] aQ38c69jMY5CmSxvXmk6gQAAAAE 127.0.0.1 40066 127.0.0.1 80
+--6bfa1775-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--6bfa1775-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=d587f95b5f7d5b6c03db35bca6b51e74; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--6bfa1775-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524275759292 4648 (- - -)
+Stopwatch2: 1762524275759292 4648; combined=11, p1=7, p2=3, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--6bfa1775-Z--
+
+--c8ddc56c-A--
+[07/Nov/2025:14:04:43.835580 +0000] aQ38e9CXwPUy3KUD4WEOxgAAAAU 127.0.0.1 52450 127.0.0.1 80
+--c8ddc56c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--c8ddc56c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=cb36e48e6abfe1413743c0f1fde6732c; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--c8ddc56c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524283832518 5688 (- - -)
+Stopwatch2: 1762524283832518 5688; combined=30, p1=13, p2=14, p3=1, p4=0, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--c8ddc56c-Z--
+
+--6bfa1775-A--
+[07/Nov/2025:14:04:51.905253 +0000] aQ38g0Lm3jlPaTeGogz1QwAAAAI 127.0.0.1 39610 127.0.0.1 80
+--6bfa1775-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--6bfa1775-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=3709560230495d570a3c2d07db86bbe0; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--6bfa1775-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524291903613 3921 (- - -)
+Stopwatch2: 1762524291903613 3921; combined=9, p1=6, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--6bfa1775-Z--
+
+--6bfa1775-A--
+[07/Nov/2025:14:04:59.953058 +0000] aQ38iwMg_mLF08Nj61EXPwAAAAQ 127.0.0.1 37306 127.0.0.1 80
+--6bfa1775-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--6bfa1775-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=61d675c0b6ecebce2e6d78230670feec; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--6bfa1775-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524299951495 3631 (- - -)
+Stopwatch2: 1762524299951495 3631; combined=10, p1=7, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--6bfa1775-Z--
+
+--6bfa1775-A--
+[07/Nov/2025:14:05:07.997257 +0000] aQ38k77FjsvkhLAxnhjhkAAAAAM 127.0.0.1 58886 127.0.0.1 80
+--6bfa1775-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--6bfa1775-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=2cb40ed7c913927e96b26abb2266e8fb; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--6bfa1775-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524307995629 4265 (- - -)
+Stopwatch2: 1762524307995629 4265; combined=9, p1=6, p2=2, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--6bfa1775-Z--
+
+--0673586b-A--
+[07/Nov/2025:14:05:15.280064 +0000] aQ38m2biYZFEyl5kaDopeQAAAAA 172.19.0.1 59856 172.19.0.4 80
+--0673586b-B--
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--0673586b-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 813
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--0673586b-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524315278027 6135 (- - -)
+Stopwatch2: 1762524315278027 6135; combined=17, p1=10, p2=5, p3=0, p4=0, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--0673586b-Z--
+
+--0673586b-A--
+[07/Nov/2025:14:05:16.105355 +0000] aQ38nK9jMY5CmSxvXmk6ggAAAAE 127.0.0.1 58888 127.0.0.1 80
+--0673586b-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--0673586b-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=a0bce9635059892f4876387b6e6115ff; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--0673586b-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524316102107 7525 (- - -)
+Stopwatch2: 1762524316102107 7525; combined=18, p1=12, p2=3, p3=1, p4=0, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--0673586b-Z--
+
+--6bfa1775-A--
+[07/Nov/2025:14:05:24.160045 +0000] aQ38pNCXwPUy3KUD4WEOxwAAAAU 127.0.0.1 60916 127.0.0.1 80
+--6bfa1775-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--6bfa1775-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=29be0a33bf7ef5a771b44ea00ebf5178; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--6bfa1775-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524324158315 4467 (- - -)
+Stopwatch2: 1762524324158315 4467; combined=10, p1=5, p2=2, p3=1, p4=0, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--6bfa1775-Z--
+
+--0673586b-A--
+[07/Nov/2025:14:05:29.834947 +0000] aQ38qULm3jlPaTeGogz1RAAAAAI 172.19.0.1 59866 172.19.0.4 80
+--0673586b-B--
+POST / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 43
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:3000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--0673586b-C--
+student_id=%27+SELECT+UNION&password=zxccsd
+--0673586b-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 318
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--0673586b-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524329830103 12436 (- - -)
+Stopwatch2: 1762524329830103 12436; combined=65, p1=9, p2=54, p3=1, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--0673586b-Z--
+
+--0673586b-A--
+[07/Nov/2025:14:05:32.203881 +0000] aQ38rAMg_mLF08Nj61EXQAAAAAQ 127.0.0.1 54142 127.0.0.1 80
+--0673586b-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--0673586b-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=ee9743d7b1e5c3c5aafda6d5132d1e95; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--0673586b-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524332202175 3799 (- - -)
+Stopwatch2: 1762524332202175 3799; combined=11, p1=7, p2=3, p3=0, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--0673586b-Z--
+
+--0673586b-A--
+[07/Nov/2025:14:05:40.248844 +0000] aQ38tL7FjsvkhLAxnhjhkQAAAAM 127.0.0.1 58916 127.0.0.1 80
+--0673586b-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--0673586b-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=2adf5dd0ab607748fde1dcd3a3e5d2bf; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--0673586b-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524340247123 5057 (- - -)
+Stopwatch2: 1762524340247123 5057; combined=10, p1=6, p2=2, p3=1, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--0673586b-Z--
+
+--8435f80c-A--
+[07/Nov/2025:14:05:48.320319 +0000] aQ38vK9jMY5CmSxvXmk6gwAAAAE 127.0.0.1 55690 127.0.0.1 80
+--8435f80c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--8435f80c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=b32fae5e83e7fdc726770270743d4363; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--8435f80c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524348317539 4926 (- - -)
+Stopwatch2: 1762524348317539 4926; combined=29, p1=22, p2=2, p3=0, p4=0, p5=4, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--8435f80c-Z--
+
+--8435f80c-A--
+[07/Nov/2025:14:05:56.387180 +0000] aQ38xGbiYZFEyl5kaDopegAAAAA 127.0.0.1 55696 127.0.0.1 80
+--8435f80c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--8435f80c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=942e15eedbcb1ed37842a95bae27d592; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--8435f80c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524356385391 3532 (- - -)
+Stopwatch2: 1762524356385391 3532; combined=13, p1=7, p2=2, p3=1, p4=1, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--8435f80c-Z--
+
+--8435f80c-A--
+[07/Nov/2025:14:06:04.448144 +0000] aQ38zAMg_mLF08Nj61EXQQAAAAQ 127.0.0.1 47048 127.0.0.1 80
+--8435f80c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--8435f80c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=1f01b34dc6c1dab4790644cdb3a278b7; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--8435f80c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524364445671 4680 (- - -)
+Stopwatch2: 1762524364445671 4680; combined=17, p1=6, p2=7, p3=0, p4=0, p5=4, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--8435f80c-Z--
+
+--0673586b-A--
+[07/Nov/2025:14:06:12.211849 +0000] aQ381NCXwPUy3KUD4WEOyAAAAAU 172.19.0.1 42606 172.19.0.4 80
+--0673586b-B--
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=dc7b98c3e8bc24eff72f4a12a034e2cc
+
+--0673586b-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 813
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--0673586b-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524372207026 8594 (- - -)
+Stopwatch2: 1762524372207026 8594; combined=24, p1=8, p2=5, p3=1, p4=0, p5=9, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--0673586b-Z--
+
+--8435f80c-A--
+[07/Nov/2025:14:06:12.511388 +0000] aQ381ELm3jlPaTeGogz1RQAAAAI 127.0.0.1 43284 127.0.0.1 80
+--8435f80c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--8435f80c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=0950f41f146c408402855d2c569aaaaf; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--8435f80c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524372508873 5283 (- - -)
+Stopwatch2: 1762524372508873 5283; combined=14, p1=6, p2=3, p3=1, p4=0, p5=4, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--8435f80c-Z--
+
+--8435f80c-A--
+[07/Nov/2025:14:06:20.558481 +0000] aQ383L7FjsvkhLAxnhjhkgAAAAM 127.0.0.1 45646 127.0.0.1 80
+--8435f80c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--8435f80c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=fde4a84d838f1f461b786e27cb64a13d; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--8435f80c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524380556153 4530 (- - -)
+Stopwatch2: 1762524380556153 4530; combined=11, p1=6, p2=2, p3=0, p4=0, p5=3, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--8435f80c-Z--
+
+--5c50083d-A--
+[07/Nov/2025:14:06:28.618400 +0000] aQ385K9jMY5CmSxvXmk6hAAAAAE 127.0.0.1 38416 127.0.0.1 80
+--5c50083d-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--5c50083d-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=7b569618282dfe07fe6c1bae8e82437e; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--5c50083d-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524388616304 4390 (- - -)
+Stopwatch2: 1762524388616304 4390; combined=10, p1=6, p2=2, p3=0, p4=0, p5=2, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--5c50083d-Z--
+
+--5c50083d-A--
+[07/Nov/2025:14:06:36.669737 +0000] aQ387GbiYZFEyl5kaDopewAAAAA 172.19.0.1 36836 172.19.0.4 80
+--5c50083d-B--
+POST / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 40
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:3000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=3c36250be80300b096fc1b136ed5f49f
+
+--5c50083d-C--
+student_id=%27+SELECT+UNION&password=sdv
+--5c50083d-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 315
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--5c50083d-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524396664368 10945 (- - -)
+Stopwatch2: 1762524396664368 10945; combined=58, p1=12, p2=42, p3=1, p4=0, p5=3, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--5c50083d-Z--
+
+--5c50083d-A--
+[07/Nov/2025:14:06:36.691637 +0000] aQ387AMg_mLF08Nj61EXQgAAAAQ 127.0.0.1 38434 127.0.0.1 80
+--5c50083d-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--5c50083d-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=bba03eda054b4198ffe0f0bf549a7665; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--5c50083d-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524396688948 5907 (- - -)
+Stopwatch2: 1762524396688948 5907; combined=13, p1=7, p2=3, p3=2, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--5c50083d-Z--
+
+--5c50083d-A--
+[07/Nov/2025:14:06:43.264746 +0000] aQ3880Lm3jlPaTeGogz1RgAAAAI 172.19.0.1 51530 172.19.0.4 80
+--5c50083d-B--
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=3c36250be80300b096fc1b136ed5f49f
+
+--5c50083d-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 813
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--5c50083d-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524403261706 8081 (- - -)
+Stopwatch2: 1762524403261706 8081; combined=11, p1=7, p2=2, p3=1, p4=0, p5=1, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--5c50083d-Z--
+
+--8435f80c-A--
+[07/Nov/2025:14:06:44.745129 +0000] aQ389NCXwPUy3KUD4WEOyQAAAAU 127.0.0.1 44798 127.0.0.1 80
+--8435f80c-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--8435f80c-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=ec0c37e361022403a58672d5084294d0; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--8435f80c-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524404743242 4350 (- - -)
+Stopwatch2: 1762524404743242 4350; combined=10, p1=6, p2=1, p3=0, p4=0, p5=3, sr=0, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--8435f80c-Z--
+
+--0070f061-A--
+[07/Nov/2025:14:06:45.737862 +0000] aQ389ULm3jlPaTeGogz1RwAAAAI 172.19.0.1 51530 172.19.0.4 80
+--0070f061-B--
+POST / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 30
+Cache-Control: max-age=0
+sec-ch-ua: "Chromium";v="142", "Microsoft Edge";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Origin: http://localhost:3000
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,vi;q=0.8
+Cookie: PHPSESSID=017cbc9553c56392b59c4bc95832439d; pma_lang=en; phpMyAdmin=3c36250be80300b096fc1b136ed5f49f
+
+--0070f061-C--
+student_id=bdfb+d&password=dfb
+--0070f061-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 822
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--0070f061-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524405733702 8132 (- - -)
+Stopwatch2: 1762524405733702 8132; combined=19, p1=7, p2=7, p3=1, p4=0, p5=3, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--0070f061-Z--
+
+--5c50083d-A--
+[07/Nov/2025:14:06:52.806325 +0000] aQ38_L7FjsvkhLAxnhjhkwAAAAM 127.0.0.1 48086 127.0.0.1 80
+--5c50083d-B--
+GET / HTTP/1.1
+Host: localhost
+User-Agent: curl/8.14.1
+Accept: */*
+
+--5c50083d-F--
+HTTP/1.1 200 OK
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=c81b0bac39d71ba5937764238cd98a8f; path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 1604
+Content-Type: text/html; charset=UTF-8
+
+--5c50083d-H--
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1762524412804258 4701 (- - -)
+Stopwatch2: 1762524412804258 4701; combined=47, p1=30, p2=1, p3=1, p4=0, p5=14, sr=0, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/).
+Server: Apache/2.4.65 (Debian)
+Engine-Mode: "DETECTION_ONLY"
+
+--5c50083d-Z--
+

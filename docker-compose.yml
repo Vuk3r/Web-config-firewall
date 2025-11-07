@@ -1,26 +1,23 @@
 version: "3.8"
 
 services:
-########## WEB ##########
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     container_name: apache_server
+    ports:
+      - "3000:80"                     # web trực tiếp (bỏ qua WAF/proxy)
     volumes:
-      - ./public:/var/www/html
+      - ./public:/var/www/html:rw
+      - ./logs/apache2:/var/log/apache2   # <-- Apache logs (access.log, error.log)
+      - ./logs/modsecurity:/var/log/modsecurity  # <-- ModSecurity audit logs
+      - ./modsecurity/modsecurity.conf:/etc/modsecurity/modsecurity.conf:ro
+      - ./modsecurity/unicode.mapping:/etc/modsecurity/unicode.mapping:ro
     environment:
       - DB_HOST=db
-    expose:
-      - "80"              # Cho phép BunkerWeb truy cập nội bộ
-    ports:
-      - "3000:80"         # Cho phép truy cập trực tiếp từ host qua port 3000
     depends_on:
       - db
-    networks:
-      - bunkerweb
+    restart: unless-stopped
 
-########## DATABASE ##########
   db:
     image: mysql:5.7
     container_name: mysql_db
@@ -32,10 +29,7 @@ services:
       MYSQL_PASSWORD: "@Student123"
     volumes:
       - db_data:/var/lib/mysql
-    networks:
-      - bunkerweb
 
-########## PHPMYADMIN ##########
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
@@ -47,42 +41,7 @@ services:
       - "8080:80"
     depends_on:
       - db
-    networks:
-      - bunkerweb
+    restart: unless-stopped
 
-########## BUNKERWEB (UI + Reverse Proxy) ##########
-  bunkerweb:
-    image: bunkerity/bunkerweb-ui:latest
-    container_name: bunkerweb
-    restart: always
-    ports:
-      - "80:8080"     # Website qua BunkerWeb
-      - "1337:7000"   # Dashboard UI
-      - "443:8443"
-    environment:
-    
-      - USE_UI=yes #bật dashboard UI
-      - ADMIN_USERNAME=admin      # Tài khoản UI
-      - ADMIN_PASSWORD=admin
-
-      - SERVER_NAME=localhost
-      - TARGETS=web
-      - AUTO_LETS_ENCRYPT=no
-      - ENFORCE_HTTPS=no
-      - USE_WAF=no
-      - USE_FAIL2BAN=no
-      - USE_DOSPROTECTOR=no
-      - LOG_LEVEL=info
-    depends_on:
-      - web
-    networks:
-      - bunkerweb
-
-########## STORAGE ##########
 volumes:
   db_data:
-
-########## NETWORK ##########
-networks:
-  bunkerweb:
-    driver: bridge

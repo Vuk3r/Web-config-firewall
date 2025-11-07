@@ -1,0 +1,21 @@
+[Fri Nov 07 14:02:26.557905 2025] [security2:notice] [pid 1:tid 1] ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/) configured.
+[Fri Nov 07 14:02:26.558524 2025] [security2:notice] [pid 1:tid 1] ModSecurity: APR compiled version="1.7.5"; loaded version="1.7.5"
+[Fri Nov 07 14:02:26.558660 2025] [security2:notice] [pid 1:tid 1] ModSecurity: PCRE2 compiled version="10.45 "; loaded version="10.46 2025-08-27"
+[Fri Nov 07 14:02:26.558765 2025] [security2:warn] [pid 1:tid 1] ModSecurity: Loaded PCRE do not match with compiled!
+[Fri Nov 07 14:02:26.558868 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LUA compiled version="Lua 5.1"
+[Fri Nov 07 14:02:26.559107 2025] [security2:notice] [pid 1:tid 1] ModSecurity: YAJL compiled version="2.1.0"
+[Fri Nov 07 14:02:26.559278 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LIBXML compiled version="2.9.14"
+[Fri Nov 07 14:02:26.559428 2025] [security2:notice] [pid 1:tid 1] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+[Fri Nov 07 14:02:26.630041 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.65 (Debian) PHP/8.2.29 configured -- resuming normal operations
+[Fri Nov 07 14:02:26.630464 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 07 14:03:20.252571 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Nov 07 14:03:26.278780 2025] [security2:notice] [pid 1:tid 1] ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/) configured.
+[Fri Nov 07 14:03:26.279106 2025] [security2:notice] [pid 1:tid 1] ModSecurity: APR compiled version="1.7.5"; loaded version="1.7.5"
+[Fri Nov 07 14:03:26.279233 2025] [security2:notice] [pid 1:tid 1] ModSecurity: PCRE2 compiled version="10.45 "; loaded version="10.46 2025-08-27"
+[Fri Nov 07 14:03:26.279336 2025] [security2:warn] [pid 1:tid 1] ModSecurity: Loaded PCRE do not match with compiled!
+[Fri Nov 07 14:03:26.279433 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LUA compiled version="Lua 5.1"
+[Fri Nov 07 14:03:26.279526 2025] [security2:notice] [pid 1:tid 1] ModSecurity: YAJL compiled version="2.1.0"
+[Fri Nov 07 14:03:26.279632 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LIBXML compiled version="2.9.14"
+[Fri Nov 07 14:03:26.279761 2025] [security2:notice] [pid 1:tid 1] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+[Fri Nov 07 14:03:26.354937 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.65 (Debian) PHP/8.2.29 configured -- resuming normal operations
+[Fri Nov 07 14:03:26.355348 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'

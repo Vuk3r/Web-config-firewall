@@ -19,3 +19,45 @@
 [Fri Nov 07 14:03:26.279761 2025] [security2:notice] [pid 1:tid 1] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
 [Fri Nov 07 14:03:26.354937 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.65 (Debian) PHP/8.2.29 configured -- resuming normal operations
 [Fri Nov 07 14:03:26.355348 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 07 14:14:23.292779 2025] [security2:error] [pid 17:tid 17] [client 172.19.0.1:38200] ModSecurity: Warning. String match "/admin-test" at REQUEST_URI. [file "/etc/modsecurity/modsecurity.conf"] [line "25"] [id "990001"] [msg "admin-test blocked"] [hostname "localhost"] [uri "/admin-test/"] [unique_id "aQ3-v2biYZFEyl5kaDophAAAAAA"]
+[Fri Nov 07 14:16:28.789614 2025] [security2:error] [pid 17:tid 17] [client 172.19.0.1:50178] ModSecurity: Warning. Pattern match "(?i:(union\\\\s+select|select\\\\s+.*\\\\s+from))" at ARGS:file. [file "/etc/modsecurity/modsecurity.conf"] [line "26"] [id "990002"] [msg "simple sqli block"] [hostname "localhost"] [uri "/view_file.php"] [unique_id "aQ3_PGbiYZFEyl5kaDopiQAAAAA"]
+[Fri Nov 07 14:16:54.793825 2025] [security2:error] [pid 669:tid 669] [client 172.19.0.1:57252] ModSecurity: Warning. Pattern match "(?i:(union\\\\s+select|select\\\\s+.*\\\\s+from))" at ARGS:student_id. [file "/etc/modsecurity/modsecurity.conf"] [line "26"] [id "990002"] [msg "simple sqli block"] [hostname "localhost"] [uri "/index.php"] [unique_id "aQ3_Vkpk-K9WdUGo8CdjCQAAAAc"], referer: http://localhost:3000/index.php?entry=true
+[Fri Nov 07 14:17:49.660455 2025] [security2:error] [pid 21:tid 21] [client 172.19.0.1:34138] ModSecurity: Warning. Pattern match "(?i:(union\\\\s+select|select\\\\s+.*\\\\s+from))" at ARGS:student_id. [file "/etc/modsecurity/modsecurity.conf"] [line "26"] [id "990002"] [msg "simple sqli block"] [hostname "localhost"] [uri "/index.php"] [unique_id "aQ3_jQMg_mLF08Nj61EXVQAAAAQ"], referer: http://localhost:3000/index.php?entry=true
+[Fri Nov 07 14:20:12.639419 2025] [security2:error] [pid 19:tid 19] [client 172.19.0.1:36686] ModSecurity: Warning. Pattern match "(?i:(union\\\\s+select|select\\\\s+.*\\\\s+from))" at ARGS:student_id. [file "/etc/modsecurity/modsecurity.conf"] [line "26"] [id "990002"] [msg "simple sqli block"] [hostname "localhost"] [uri "/index.php"] [unique_id "aQ4AHELm3jlPaTeGogz1WwAAAAI"], referer: http://localhost:3000/index.php?entry=true
+[Fri Nov 07 14:23:25.223510 2025] [security2:error] [pid 535:tid 535] [client 172.19.0.1:43678] ModSecurity: Warning. Pattern match "(?i:(union\\\\s+select|select\\\\s+.*\\\\s+from))" at ARGS:student_id. [file "/etc/modsecurity/modsecurity.conf"] [line "26"] [id "990002"] [msg "simple sqli block"] [hostname "localhost"] [uri "/"] [unique_id "aQ4A3Spc90DpBLkHQoKbRAAAAAY"], referer: http://localhost:3000/
+[Fri Nov 07 14:25:08.053527 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Nov 07 14:25:13.754381 2025] [security2:notice] [pid 1:tid 1] ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/) configured.
+[Fri Nov 07 14:25:13.754774 2025] [security2:notice] [pid 1:tid 1] ModSecurity: APR compiled version="1.7.5"; loaded version="1.7.5"
+[Fri Nov 07 14:25:13.754939 2025] [security2:notice] [pid 1:tid 1] ModSecurity: PCRE2 compiled version="10.45 "; loaded version="10.46 2025-08-27"
+[Fri Nov 07 14:25:13.755057 2025] [security2:warn] [pid 1:tid 1] ModSecurity: Loaded PCRE do not match with compiled!
+[Fri Nov 07 14:25:13.755320 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LUA compiled version="Lua 5.1"
+[Fri Nov 07 14:25:13.755514 2025] [security2:notice] [pid 1:tid 1] ModSecurity: YAJL compiled version="2.1.0"
+[Fri Nov 07 14:25:13.755671 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LIBXML compiled version="2.9.14"
+[Fri Nov 07 14:25:13.755829 2025] [security2:notice] [pid 1:tid 1] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+[Fri Nov 07 14:25:13.828711 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.65 (Debian) PHP/8.2.29 configured -- resuming normal operations
+[Fri Nov 07 14:25:13.829003 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 07 14:27:30.413204 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Nov 07 14:27:31.912268 2025] [security2:notice] [pid 1:tid 1] ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/) configured.
+[Fri Nov 07 14:27:31.912524 2025] [security2:notice] [pid 1:tid 1] ModSecurity: APR compiled version="1.7.5"; loaded version="1.7.5"
+[Fri Nov 07 14:27:31.912640 2025] [security2:notice] [pid 1:tid 1] ModSecurity: PCRE2 compiled version="10.45 "; loaded version="10.46 2025-08-27"
+[Fri Nov 07 14:27:31.912739 2025] [security2:warn] [pid 1:tid 1] ModSecurity: Loaded PCRE do not match with compiled!
+[Fri Nov 07 14:27:31.912828 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LUA compiled version="Lua 5.1"
+[Fri Nov 07 14:27:31.912912 2025] [security2:notice] [pid 1:tid 1] ModSecurity: YAJL compiled version="2.1.0"
+[Fri Nov 07 14:27:31.912997 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LIBXML compiled version="2.9.14"
+[Fri Nov 07 14:27:31.913080 2025] [security2:notice] [pid 1:tid 1] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+[Fri Nov 07 14:27:31.966274 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.65 (Debian) PHP/8.2.29 configured -- resuming normal operations
+[Fri Nov 07 14:27:31.966763 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 07 14:30:38.261564 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Fri Nov 07 14:36:42.424267 2025] [security2:notice] [pid 1:tid 1] ModSecurity for Apache/2.9.11 (http://www.modsecurity.org/) configured.
+[Fri Nov 07 14:36:42.425046 2025] [security2:notice] [pid 1:tid 1] ModSecurity: APR compiled version="1.7.5"; loaded version="1.7.5"
+[Fri Nov 07 14:36:42.425234 2025] [security2:notice] [pid 1:tid 1] ModSecurity: PCRE2 compiled version="10.45 "; loaded version="10.46 2025-08-27"
+[Fri Nov 07 14:36:42.425409 2025] [security2:warn] [pid 1:tid 1] ModSecurity: Loaded PCRE do not match with compiled!
+[Fri Nov 07 14:36:42.425571 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LUA compiled version="Lua 5.1"
+[Fri Nov 07 14:36:42.425743 2025] [security2:notice] [pid 1:tid 1] ModSecurity: YAJL compiled version="2.1.0"
+[Fri Nov 07 14:36:42.425909 2025] [security2:notice] [pid 1:tid 1] ModSecurity: LIBXML compiled version="2.9.14"
+[Fri Nov 07 14:36:42.426092 2025] [security2:notice] [pid 1:tid 1] ModSecurity: Status engine is currently disabled, enable it by set SecStatusEngine to On.
+[Fri Nov 07 14:36:42.537427 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00163: Apache/2.4.65 (Debian) PHP/8.2.29 configured -- resuming normal operations
+[Fri Nov 07 14:36:42.537701 2025] [core:notice] [pid 1:tid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Fri Nov 07 14:37:00.789911 2025] [security2:error] [pid 20:tid 20] [client 172.19.0.1:55556] ModSecurity: Access denied with code 403 (phase 2). Pattern match "(?i:(union\\\\s+select|select\\\\s+.*\\\\s+from))" at ARGS:student_id. [file "/etc/modsecurity/modsecurity.conf"] [line "25"] [id "990002"] [msg "simple sqli block"] [hostname "localhost"] [uri "/"] [unique_id "aQ4EDF2G9iFXznSSH7H6mgAAAAM"], referer: http://localhost:3000/
+[Fri Nov 07 14:37:15.326848 2025] [security2:error] [pid 18:tid 18] [client 172.19.0.1:58280] ModSecurity: Access denied with code 403 (phase 2). Pattern match "(?i:(union\\\\s+select|select\\\\s+.*\\\\s+from))" at ARGS:student_id. [file "/etc/modsecurity/modsecurity.conf"] [line "25"] [id "990002"] [msg "simple sqli block"] [hostname "localhost"] [uri "/"] [unique_id "aQ4EG3Y5A1WyT0OSyt-tCwAAAAE"], referer: http://localhost:3000/
+[Fri Nov 07 14:37:43.668379 2025] [mpm_prefork:notice] [pid 1:tid 1] AH00170: caught SIGWINCH, shutting down gracefully

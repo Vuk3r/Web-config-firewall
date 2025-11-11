@@ -39,6 +39,7 @@ services:
       PMA_PASSWORD: "@Student123"
     ports:
       - "8080:80"
+      - "3306:3306"
     depends_on:
       - db
     restart: unless-stopped

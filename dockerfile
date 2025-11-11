@@ -33,7 +33,7 @@ RUN if [ -f /etc/modsecurity/modsecurity.conf-recommended ]; then \
 
 # 3) ServerName to avoid Apache warning
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
-
+#####
 ###########
 
 # Cài và bật mod_security nếu chưa có
